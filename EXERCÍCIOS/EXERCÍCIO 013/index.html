@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferenets ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/Foto-P.png" type="image/PNG">
+        
+        <source media="(max-width:1050px)" srcset="Imagens/Foto-M.png" type="image/png">
+
+        <img src="Imagens/Foto-G.png" alt="">
+    </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Aprendendo a reproduzir áudio no html5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/On-The-Rocks.mp3" type="audio/mpeg">
+
+        não reproduz
+    </audio>
+    <!--MP3 WAV, OGG -->
+    
+</body>
+</html>
