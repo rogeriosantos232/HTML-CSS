@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        /**/
+    </style>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            height: 400px;
+            text-align: center;
+            width: 400px;
+            border-collapse:collapse;
+        }
+        tr.plinha{
+            background-color: brown;
+        }
+        tr.slinha{
+            background-color: rgb(255, 0, 0);
+        }
+        td#sdado2tr{
+            background-color: blue;
+        }
+        td{
+            padding: 8px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Anatomia da Tabelas</h1>
+
+    <!--
+        HIERARQUIA DE TABELAS
+        TABLE = Tabelas
+        TABLE ROW = Linha de Tabela
+         TABLE HEADER = Cabeçalho de Tabela
+         TABLE DATA = Dado de Tabela
+        -->
+    <table>
+        <tr class="plinha"> <!-- Primeira Linha -->
+        <td>A1
+        <td>B1
+        <td>C1
+
+    <tr class="slinha"> <!-- Segunda Linha -->
+        <td>A2
+        <td id="sdado2tr">B2
+        <td>C2
+    
+    <tr> <!-- Terceira Linha -->
+        <td>A3
+        <td>B3
+        <td>C3
+    
+    <tr> <!-- Quarta Linha -->
+        <td>A4
+        <td>B4
+        <td>C4
+    
+    </table>
+
+</body>
+</html>
